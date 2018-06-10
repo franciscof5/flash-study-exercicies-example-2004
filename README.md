@@ -1,6 +1,8 @@
-# Flash Study Examples from Books, Sites and Tutorias
+# Flash Study Exercicies Examples from Books, Sites and Tutorias
 by Francisco Mat
 Made in 2004
+
+Most of them are just tests projects, without design and even most of it not working properly
 
 # Radio Button
 Just enable buttons when checked radio
