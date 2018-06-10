@@ -1,0 +1,7 @@
+&titulo1 = FlashMX
+&subtitulo1 = Criando para mim
+&titulo2 = Sonhowaver Mx
+&subtitulo2 = Quanta propaganda nessa porra
+&titulo3 = Chega disso
+&subtitulo3 = Avançado
+&quantidade = 3
