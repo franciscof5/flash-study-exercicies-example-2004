@@ -4,10 +4,10 @@ Made in 2004
 
 Most of them are just tests projects, without design and even most of it not working properly
 
-# Radio Button
+# Radio Button Checked
 Just enable buttons when checked radio
 
-![Du Fay Law](2018-06-10-study-example.png)
+![Radio Button Checked](2018-06-10-study-example.png)
 
 * Made in Windows XP + Flash MX.
 

@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<TITLE>No TITLE</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+ systm=""
+ ver=navigator.appVersion
+ Nv=ver.charAt(0)
+ len=ver.length
+ for(iln=0;iln<len;iln++) if(ver.charAt(iln)=="(") break
+ systm = ver.charAt(iln+1).toUpperCase()
+
+function clk(){
+ if (Nv>=4){
+  if (systm == "C"){
+   parent.main.restarter.style.posTop = 100
+   parent.main.document.forms[1].elements[0].click()
+  }else{
+   parent.main.focus()
+  }
+ }
+}
+
+if (Nv>=4){
+ if (systm!="C"){
+  document.onmousedown = clk
+  document.captureEvents(Event.MOUSEDOWN)
+ }
+}
+
+//-->
+</SCRIPT>
+<base target="_self">
+</HEAD>
+
+<BODY onclick="clk()">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+//N3 check
+ if (Nv<4){
+  parent.main.location.href="n3.html"
+ }else{
+  parent.main.location.href="nnie.html"
+ }
+
+//-->
+</SCRIPT><i><b><font style="font-size: 24px" face="Lucida Blackletter" color="#000080">Super
+&lt;-Oke-&gt;</font></b></i><P>
+<FORM NAME="FORM0">
+<font face="Arial Narrow" color="#0000FF">
+SCORE<BR><INPUT TYPE="text" NAME="PY" SIZE=10 VALUE = " " ></font><P>
+<font face="Arial Narrow" color="#0000FF">
+TIME LIMIT</font><BR><INPUT TYPE="text" NAME="TL" SIZE=10 VALUE = " " ><P>
+</FORM>
+<DIV STYLE='position:absolute; top:220; left:20'>
+<font size="-1"><a HREF="http://www.oke.web1000.com" TARGET="_top">http://www.oke.web1000.com</a></font>
+</DIV>
+<DIV STYLE='position:absolute; top: 260'>
+<FONT SIZE="-1">
+MUSIC by <BR>  <A HREF="http://www.threeweb.ad.jp/~kuge/indexe.html" TARGET="_top">FreeMusicArchive</A>
+</FONT>
+</DIV>
+
+
+</BODY>
+</HTML>
